@@ -36,6 +36,29 @@ body{
 }
 /* End Global Rules */
 /* Start header  */
-d
-/* End header  */
+.header{
+    padding: 20px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    width: 70px;
+}
+.header .links{
+    position: relative;
+}
+.header .links .icon{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.header .links .icon span{
+    background-color: #333;
+    margin-bottom: 5px;
+    
+}
+ /* End header  */
   
