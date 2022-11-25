@@ -37,6 +37,29 @@ body{
     }
 }
 /* End Global Rules */
+/* Start components  */
+.special-heading {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}   
+.special-heading + p {
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+}
+@media (max-width: 767px) {
+    .special-heading {
+      font-size: 60px;
+}
+.special-heading + p {
+      margin-top: -20px;
+}
+/* End components  */
 /* Start header  */
 .header{
     padding: 20px;
@@ -150,9 +173,9 @@ max-width: 100%;
 /* End landing section  */
 /* Start features */
 .features {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-    background-color: var(--section-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
     }
 .features .container {
     display: grid;
